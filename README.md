@@ -53,7 +53,7 @@ CHECK_GL_ERROR_DEBUG();
 sprite->setGLProgram(p);
 ```
 
-Shader #11 (it uses *vertex-specific.vsh*):
+**Shader #11** (it uses *vertex-specific.vsh*):
 ```
 int number = 11;
 auto shader = StringUtils::format("shaders/fragment-%d.fsh", number);
@@ -80,7 +80,7 @@ glprogramstate->setUniformTexture("u_CausticTexture", caustic);
 glprogramstate->setUniformTexture("u_NoiseTexture", noise);
 ```
 
-Shader #17 (it uses *vertex-specific.vsh*):
+**Shader #17** (it uses *vertex-specific.vsh*):
 ```
 int number = 17;
 auto shader = StringUtils::format("shaders/fragment-%d.fsh", number);
@@ -107,7 +107,7 @@ glprogramstate->setUniformTexture("u_CausticTexture", caustic);
 glprogramstate->set>UniformTexture("u_NoiseTexture", noise);
 ```
 
-Shader #19 (it uses *vertex-specific.vsh*):
+**Shader #19** (it uses *vertex-specific.vsh*):
 ```
 int number = 19;
 auto shader = StringUtils::format("shaders/fragment-%d.fsh", number);
