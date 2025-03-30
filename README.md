@@ -1,7 +1,7 @@
 Cocos2d-X Shaders Demo
 ===
 
-This is a small demo collection of 20 shaders created while studying Cocos2d-X (v. 3.14 and 3.17) to learn how to make iOS, Android and OSX games.
+This is a small demo collection of 20 shaders created while studying Cocos2d-X (from v. 3.10 to 3.17) to learn how to make iOS, Android and OSX games.
 
 They can certainly be improved and optimized but I didn't care during the study phase.
 
